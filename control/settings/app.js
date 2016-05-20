@@ -49,6 +49,7 @@
                 "headerText": "",
                 "type": SettingsHome.CHAT_TYPE.PUBLIC
               };
+
             SettingsHome.chatType = SettingsHome.data.settings.type || SettingsHome.CHAT_TYPE.PUBLIC;
             SettingsHome.updateMasterItem(SettingsHome.data);
           }
